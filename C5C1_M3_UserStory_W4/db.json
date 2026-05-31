@@ -1,0 +1,33 @@
+{
+    "cats": [
+        {
+            "id": "1",
+            "name": "Cebolla",
+            "breed": "British Shorthair",
+            "age": 6,
+            "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGhpdTY1dXlqMWJkZXJoZ3JiMGhqbnk3NmFldG8xYWRjMmJndG0xaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zMv36BprGxUAqoWc72/giphy.gif"
+        },
+        {
+            "id": "2",
+            "name": "Chancleta",
+            "breed": "Persian",
+            "age": 4,
+            "image": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjJ4Z2xuejFodzJoOXpsY3B3bzNheW9vb2lhbzdjNnJ5NTNvM3RoYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qZgHBlenHa1zKqy6Zn/giphy.gif"
+        },
+        {
+            "id": "3",
+            "name": "Tornillo",
+            "breed": "Scottish Fold",
+            "age": 3,
+            "image": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnlvemkwcWlsNTRlM3RucmJubHYxazE5ZTF6eTBmd3V3MThmaGM1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GRk3GLfzduq1NtfGt5/giphy.gif"
+        },
+        {
+            "name": "Godzilla",
+            "breed": "Yellow",
+            "age": 4,
+            "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGhpdTY1dXlqMWJkZXJoZ3JiMGhqbnk3NmFldG8xYWRjMmJndG0xaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wr7oA0rSjnWuiLJOY5/giphy.gif",
+            "id": "CJsSQig4ZME"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}

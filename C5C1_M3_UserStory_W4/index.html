@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Catalog 🐱</title>
+</head>
+
+<body class="min-h-screen">
+
+  <main class="w-full min-h-screen bg-[url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmR1dWJ6ZW80dHlkM2l0Nm9saWNkZWQ5dTZ4M3M0M3RkM3N0d2NiNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif')] bg-cover bg-fixed bg-center flex justify-center py-20">
+
+    <section class="w-[900px] bg-yellow-400/50 border-4 border-lime-950 rounded-3xl shadow-xl shadow-yellow-200 p-8 flex flex-col gap-6">
+
+      <!-- HEADER -->
+
+      <header class="text-center">
+        <h1 class="text-4xl font-bold text-yellow-950 underline">
+          This is Oczo's Attempt for M3W4 User Story
+        </h1>
+
+        <p class="font-semibold mt-2">
+          This project brings together everything covered in JavaScript Module 3: DOM manipulation, data persistence with Local Storage, and real-time API communication using the Fetch API. The app supports full CRUD operations connected to a local JSON Server, validates user input, and keeps data synced across sessions — built with modern ES6+ practices and clean, commented code. <br><br>
+          <b class="text-yellow-950 text-xl">Manage your collection of funny and chunky cats!</b> <br>
+          /\_/\ <br>
+          ( o w o )
+        </p>
+      </header>
+
+      <!-- FORM -->
+
+      <form
+        id="catForm"
+        class="grid grid-cols-2 gap-4"
+      >
+        <div class="flex font-bold text-yellow-950 flex-col">
+          <label for="catName">~ Name:</label>
+          <input id="catName" type="text" placeholder="Mr Mandarino" class="border rounded px-3 py-2 bg-white"/>
+        </div>
+
+        <div class="flex font-bold text-yellow-950 flex-col">
+          <label for="catBreed">~ Breed:</label>
+          <input id="catBreed" type="text" placeholder="Orange Caaaat" class="border rounded px-3 py-2 bg-white"/>
+        </div>
+
+        <div class="flex font-bold text-yellow-950 flex-col">
+          <label for="catAge">~ Age:</label>
+          <input id="catAge" type="number" placeholder="6 or 7?" class="border rounded px-3 py-2 bg-white"/>
+        </div>
+
+        <div class="flex font-bold text-yellow-950 flex-col">
+          <label for="catImage">~ Image URL:</label>
+          <input id="catImage" type="text" placeholder="https://..." class="border rounded px-3 py-2 bg-white"/>
+        </div>
+
+        <button id="addCatBtn" class="col-span-2 bg-lime-950 text-white font-semibold rounded-lg py-2 hover:bg-lime-800 cursor-pointer">
+        Add Cat
+        </button>
+
+      </form>
+
+      <!-- MESSAGE -->
+
+      <p id="message" class="text-center font-bold text-xl min-h-[30px]">
+      </p>
+
+      <!-- COUNTER -->
+
+      <h2 id="catsCounter" class="text-xl font-bold text-center">
+        ᓚ₍ ^. ̫ .^₎ Total Cats: 0
+      </h2>
+
+      <!-- CATS LIST -->
+
+      <ul id="catsList" class="grid grid-cols-2 gap-4">
+      </ul>
+
+      <!-- SYNC BUTTON -->
+
+      <button id="syncBtn" class="bg-blue-900 text-white rounded-lg py-3 hover:bg-blue-700 cursor-pointer">
+        Sync with API
+      </button>
+      <p class="font-bold text-center text-yellow-950">Made by Oczo - Riwi</p>
+    </section>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
